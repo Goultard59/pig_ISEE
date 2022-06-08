@@ -110,7 +110,7 @@ run_app <- function(
     RowSelectionRestrict = FALSE, ColumnSelectionRestrict = FALSE, 
     SelectionHistory = list())
 
-  ExperimentColorMap(
+  iSEE::ExperimentColorMap(
   assays = list(),
   colData = list(),
   rowData = list(),
