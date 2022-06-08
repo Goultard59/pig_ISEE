@@ -1,3 +1,3 @@
 ## code to prepare `my_dataset` dataset goes here
 
-usethis::use_data(my_dataset, overwrite = TRUE)
+usethis::use_data(my_dataset, overwrite = TRUE, internal = TRUE)
